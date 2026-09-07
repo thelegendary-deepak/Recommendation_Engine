@@ -12,7 +12,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 app = FastAPI(title="Multi-Brand Recommendation Engine Service")
 
 # --- 1. Dynamic Path Resolution ---
-BASE_DIR = Path(__file__).resolve().parent.parent  # Points to 'app/'
+BASE_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = BASE_DIR.parent  # Points to the repository root
 
 # Crate & Barrel Paths
@@ -20,7 +20,7 @@ MODEL_PATH_CB = BASE_DIR / "models" / "crateandbarrel_recommender_model.joblib"
 JSON_PATH_CB = PROJECT_ROOT / "web-scraping" / "Scraped_data" / "product_metadata.json"
 
 # Otto Paths
-MODEL_PATH_OTTO = BASE_DIR / "models" / "otto_model.joblib"
+MODEL_PATH_OTTO = BASE_DIR / "models" / "otto_recommender_model.joblib"
 JSON_PATH_OTTO = PROJECT_ROOT / "web-scraping" / "Scraped_data" / "otto_departments.json"
 
 # --- 2. Load Models & Data at Startup ---
@@ -51,7 +51,7 @@ except Exception as e:
 
 # --- 3. Clean and Align Functions ---
 def clean_price_robust(val):
-    """Robust price cleaning utilizing the regex `(\d+(?:[\.,]\d+)?)` to match any first decimal."""
+    r"""Robust price cleaning utilizing the regex `(\d+(?:[\.,]\d+)?)` to match any first decimal."""
     if pd.isna(val):
         return 0.0
     match = re.search(r"(\d+(?:[\.,]\d+)?)", str(val))
