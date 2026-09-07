@@ -1,0 +1,153 @@
+Product_ID,Product_Name,Product_Category,Product_Sub_Category,Gender_Target,Age_Group,Brand_Name,Product_Type,Color,Material,Style,Pattern,Season,Sleeve_Length,Fit_Type,Occasion_Tag,Product_Price,Cost
+P8006,Formal Red Shirt Dress,Dresses,Maxi Dress,Female,Adult,Bodyflirt,Shirt Dress,Red,Viscose,Formal,Floral,Spring/Summer,Sleeveless,Relaxed,,112.96,40.43
+P8078,Formal Olive Casual Shirt,Menswear,Shirts,Male,Adult,Linea Tesini,Casual Shirt,Olive,Linen,Formal,Striped,All Season,Long Sleeve,Petite,,55.66,30.35
+P8066,Casual Beige Push-Up Bra,Lingerie,Bras,Female,Adult,Rainbow Kids,Push-Up Bra,Beige,Cotton,Casual,Lace,Autumn/Winter,,Slim,Vacation,53.38,18.18
+P8088,Athleisure White Waistcoat,Menswear,Suits,Male,Adult,Maite Kelly,Waistcoat,White,Polyester,Athleisure,Solid,Spring/Summer,Sleeveless,Petite,Wedding,82.99,37.68
+P8060,Vintage Olive T-Shirt Bra,Lingerie,Bras,Female,Adult,Bonprix Basics,T-Shirt Bra,Olive,Lace,Vintage,Solid,Autumn/Winter,,Petite,Vacation,33.18,11.14
+P8146,Athleisure Olive Swim Cover-Up,Swimwear,Swimsuits,Female,Adult,Rainbow Kids,Swim Cover-Up,Olive,Nylon,Athleisure,Printed,All Season,,Plus Size,Party,18.88,10.03
+P8016,Streetwear Mustard Party Dress,Dresses,Party Dress,Female,Adult,Sheego,Party Dress,Mustard,Velvet,Streetwear,Printed,Spring/Summer,3/4 Sleeve,Slim,Vacation,34.51,14.01
+P8007,Athleisure Maroon Maxi Dress,Dresses,Maxi Dress,Female,Adult,Maite Kelly,Maxi Dress,Maroon,Polyester,Athleisure,Solid,Autumn/Winter,3/4 Sleeve,Regular,Wedding,111.85,58.49
+P8103,Vintage Denim Blue Heels,Footwear,Sandals,Female,Adult,Sheego,Heels,Denim Blue,Synthetic Leather,Vintage,Solid,All Season,,Slim,Wedding,33.17,11.8
+P8152,Athleisure Blush Pink Swim Cover-Up,Swimwear,Swimsuits,Female,Adult,Bpc Selection,Swim Cover-Up,Blush Pink,Spandex Blend,Athleisure,Printed,Spring/Summer,,Petite,Sportswear,44.25,18.62
+P8073,Streetwear Red Nightgown,Lingerie,Nightwear,Female,Adult,Bpc Selection,Nightgown,Red,Cotton,Streetwear,Printed,Autumn/Winter,Sleeveless,Regular,Party,64.52,27.91
+P8020,Vintage Navy Blouse,Tops,Blouses,Female,Adult,Maite Kelly,Blouse,Navy,Polyester,Vintage,Floral,All Season,Long Sleeve,Petite,Sportswear,82.94,36.91
+P8022,Streetwear White Blouse,Tops,Blouses,Female,Adult,Linea Tesini,Blouse,White,Polyester,Streetwear,Floral,Autumn/Winter,Short Sleeve,Petite,Wedding,59.36,22.18
+P8067,Athleisure Blush Pink T-Shirt Bra,Lingerie,Bras,Female,Adult,Bpc Selection,T-Shirt Bra,Blush Pink,Microfiber,Athleisure,Solid,Autumn/Winter,,Plus Size,Everyday,6.22,3.16
+P8024,Vintage Olive Tunic,Tops,Blouses,Female,Adult,Linea Tesini,Tunic,Olive,Polyester,Vintage,Striped,All Season,Long Sleeve,Petite,Work,78.65,36.56
+P8002,Classic White Maxi Dress,Dresses,Maxi Dress,Female,Adult,Rainbow Kids,Maxi Dress,White,Cotton,Classic,Printed,Spring/Summer,Long Sleeve,Plus Size,Work,39.57,15.2
+P8148,Classic Red Swim Cover-Up,Swimwear,Swimsuits,Female,Adult,Linea Tesini,Swim Cover-Up,Red,Spandex Blend,Classic,Solid,All Season,,Plus Size,Everyday,105.8,45.98
+P8015,Streetwear Maroon A-Line Dress,Dresses,Party Dress,Female,Adult,Rainbow Kids,A-Line Dress,Maroon,Velvet,Streetwear,Printed,Spring/Summer,Long Sleeve,Regular,Everyday,83.47,38.43
+P8034,Athleisure Blush Pink Bootcut Jeans,Bottoms,Jeans,Unisex,Adult,Bonprix Basics,Bootcut Jeans,Blush Pink,Denim,Athleisure,Solid,Autumn/Winter,,Regular,Everyday,87.3,28.97
+P8145,Classic Olive Swim Cover-Up,Swimwear,Swimsuits,Female,Adult,Rainbow Kids,Swim Cover-Up,Olive,Nylon,Classic,Printed,Spring/Summer,,Petite,Work,33.28,14.25
+P8044,Classic Red Formal Trousers,Bottoms,Trousers,Unisex,Adult,Bodyflirt,Formal Trousers,Red,Cotton,Classic,Solid,All Season,,Petite,Vacation,12.81,5.02
+P8062,Casual Black Push-Up Bra,Lingerie,Bras,Female,Adult,Rainbow Kids,Push-Up Bra,Black,Microfiber,Casual,Lace,Autumn/Winter,,Slim,Wedding,42.77,15.33
+P8102,Athleisure White Heels,Footwear,Sandals,Female,Adult,Bonprix Basics,Heels,White,Synthetic Leather,Athleisure,Solid,All Season,,Regular,Party,13.18,4.59
+P8010,Athleisure Beige A-Line Dress,Dresses,Party Dress,Female,Adult,Linea Tesini,A-Line Dress,Beige,Polyester,Athleisure,Sequin,All Season,Long Sleeve,Relaxed,Party,106.9,38.43
+P8069,Classic Denim Blue Nightgown,Lingerie,Nightwear,Female,Adult,Sheego,Nightgown,Denim Blue,Satin,Classic,Printed,Spring/Summer,Short Sleeve,Plus Size,Party,29.49,13.36
+P8106,Bohemian Red Sandals,Footwear,Sandals,Female,Adult,Maite Kelly,Sandals,Red,Leather,Bohemian,Solid,Spring/Summer,,Regular,Work,44.19,22.88
+P8071,Formal White Pajama Set,Lingerie,Nightwear,Female,Adult,Sheego,Pajama Set,White,Satin,Formal,Solid,All Season,Long Sleeve,Relaxed,,100.81,39.49
+P8144,Vintage Teal Leggings,Activewear,Sportswear,Unisex,Adult,Maite Kelly,Leggings,Teal,Polyester,Vintage,Solid,All Season,,Plus Size,Party,118.7,41.59
+P8150,Classic Maroon Swim Cover-Up,Swimwear,Swimsuits,Female,Adult,Sheego,Swim Cover-Up,Maroon,Spandex Blend,Classic,Printed,Spring/Summer,,Relaxed,Work,84.99,35.03
+P8141,Streetwear Beige Track Jacket,Activewear,Sportswear,Unisex,Adult,Sheego,Track Jacket,Beige,Polyester,Streetwear,Solid,Autumn/Winter,,Relaxed,Sportswear,83.46,41.74
+P8074,Casual White Robe,Lingerie,Nightwear,Female,Adult,Rainbow Kids,Robe,White,Cotton,Casual,Printed,Autumn/Winter,Short Sleeve,Maternity,,69.31,37.35
+P8035,Bohemian Grey Bootcut Jeans,Bottoms,Jeans,Unisex,Adult,Bodyflirt,Bootcut Jeans,Grey,Denim,Bohemian,Solid,Autumn/Winter,,Relaxed,,40.25,12.14
+P8090,Vintage Denim Blue Suit Jacket,Menswear,Suits,Male,Adult,Sheego,Suit Jacket,Denim Blue,Wool Blend,Vintage,Solid,All Season,3/4 Sleeve,Relaxed,Sportswear,58.2,27.98
+P8081,Classic Black Formal Shirt,Menswear,Shirts,Male,Adult,Sheego,Formal Shirt,Black,Cotton,Classic,Checked,All Season,Sleeveless,Regular,Wedding,36.3,17.05
+P8057,Streetwear Maroon Pullover,Knitwear,Sweaters,Unisex,Adult,Maite Kelly,Pullover,Maroon,Wool,Streetwear,Cable Knit,Autumn/Winter,Short Sleeve,Slim,Party,26.82,13.74
+P8018,Vintage Beige Camisole,Tops,Blouses,Female,Adult,Maite Kelly,Camisole,Beige,Silk Blend,Vintage,Floral,Spring/Summer,3/4 Sleeve,Petite,Party,78.88,40.01
+P8021,Formal Mustard Blouse,Tops,Blouses,Female,Adult,Bodyflirt,Blouse,Mustard,Polyester,Formal,Solid,Spring/Summer,Short Sleeve,Relaxed,Vacation,111.95,35.51
+P8023,Vintage Red Blouse,Tops,Blouses,Female,Adult,Rainbow Kids,Blouse,Red,Silk Blend,Vintage,Floral,Autumn/Winter,Long Sleeve,Slim,Vacation,118.05,55.45
+P8046,Athleisure Olive Joggers,Bottoms,Trousers,Unisex,Adult,Rainbow Kids,Joggers,Olive,Polyester Blend,Athleisure,Solid,All Season,,Relaxed,Vacation,117.03,55.68
+P8012,Vintage Navy A-Line Dress,Dresses,Party Dress,Female,Adult,Bonprix Basics,A-Line Dress,Navy,Polyester,Vintage,Solid,Spring/Summer,Short Sleeve,Regular,Wedding,96.62,46.7
+P8064,Bohemian Black T-Shirt Bra,Lingerie,Bras,Female,Adult,Bodyflirt,T-Shirt Bra,Black,Lace,Bohemian,Lace,Autumn/Winter,,Petite,Work,97.67,35.67
+P8048,Athleisure Black Bomber Jacket,Outerwear,Jackets,Unisex,Adult,Rainbow Kids,Bomber Jacket,Black,Polyester,Athleisure,Solid,Autumn/Winter,Sleeveless,Slim,,23.93,12.69
+P8121,Streetwear Grey Kids Shorts,Kids Wear,Kids Bottoms,Unisex,Kids,Linea Tesini,Kids Shorts,Grey,Cotton,Streetwear,Solid,Autumn/Winter,,Slim,Everyday,82.74,42.33
+P8089,Vintage Teal Waistcoat,Menswear,Suits,Male,Adult,Sheego,Waistcoat,Teal,Wool Blend,Vintage,Solid,Spring/Summer,3/4 Sleeve,Slim,Everyday,52.79,23.09
+P8005,Classic Beige Shirt Dress,Dresses,Maxi Dress,Female,Adult,Bodyflirt,Shirt Dress,Beige,Polyester,Classic,Solid,Spring/Summer,Short Sleeve,Relaxed,Wedding,45.65,14.79
+P8126,Casual Navy Kids Party Dress,Kids Wear,Kids Dresses,Female,Kids,Rainbow Kids,Kids Party Dress,Navy,Polyester,Casual,Printed,Autumn/Winter,Long Sleeve,Slim,Work,29.53,9.3
+P8129,Casual Black Kids Frock,Kids Wear,Kids Dresses,Female,Kids,Maite Kelly,Kids Frock,Black,Polyester,Casual,Printed,All Season,Long Sleeve,Slim,Work,75.92,36.64
+P8011,Streetwear White A-Line Dress,Dresses,Party Dress,Female,Adult,Rainbow Kids,A-Line Dress,White,Polyester,Streetwear,Sequin,All Season,Short Sleeve,Regular,Party,65.53,22.3
+P8125,Bohemian Maroon Kids Frock,Kids Wear,Kids Dresses,Female,Kids,Linea Tesini,Kids Frock,Maroon,Cotton,Bohemian,Printed,Spring/Summer,3/4 Sleeve,Petite,,83.18,28.17
+P8104,Vintage Blush Pink Sandals,Footwear,Sandals,Female,Adult,Maite Kelly,Sandals,Blush Pink,Leather,Vintage,Solid,Autumn/Winter,,Relaxed,Party,117.67,37.29
+P8136,Classic Black Sweatpants,Home Textiles,Loungewear,Unisex,Adult,Bodyflirt,Sweatpants,Black,Fleece,Classic,Solid,All Season,,Petite,Sportswear,28.28,9.09
+P8127,Formal Blush Pink Kids Frock,Kids Wear,Kids Dresses,Female,Kids,Sheego,Kids Frock,Blush Pink,Cotton,Formal,Printed,Autumn/Winter,Short Sleeve,Regular,Work,59.43,23.22
+P8061,Classic Black T-Shirt Bra,Lingerie,Bras,Female,Adult,Bpc Selection,T-Shirt Bra,Black,Cotton,Classic,Solid,Spring/Summer,,Petite,Work,112.47,58.11
+P8116,Streetwear Red Kids Jeans,Kids Wear,Kids Bottoms,Unisex,Kids,Bpc Selection,Kids Jeans,Red,Cotton,Streetwear,Solid,Autumn/Winter,,Plus Size,Party,10.56,3.6
+P8099,Bohemian Mustard Sports Shoes,Footwear,Sneakers,Unisex,Adult,Sheego,Sports Shoes,Mustard,Synthetic,Bohemian,Solid,All Season,,Plus Size,,9.37,3.22
+P8026,Casual Red Tunic,Tops,Blouses,Female,Adult,Bpc Selection,Tunic,Red,Silk Blend,Casual,Floral,Spring/Summer,Short Sleeve,Petite,,103.38,35.81
+P8128,Casual Blush Pink Kids Party Dress,Kids Wear,Kids Dresses,Female,Kids,Bodyflirt,Kids Party Dress,Blush Pink,Polyester,Casual,Printed,All Season,3/4 Sleeve,Petite,Party,70.26,22.99
+P8019,Bohemian White Camisole,Tops,Blouses,Female,Adult,Bodyflirt,Camisole,White,Polyester,Bohemian,Solid,All Season,Long Sleeve,Petite,Work,118.23,45.98
+P8137,Classic Mustard Loungewear Set,Home Textiles,Loungewear,Unisex,Adult,Sheego,Loungewear Set,Mustard,Cotton,Classic,Solid,All Season,,Petite,Wedding,83.11,37.59
+P8133,Formal White Loungewear Set,Home Textiles,Loungewear,Unisex,Adult,Linea Tesini,Loungewear Set,White,Cotton,Formal,Solid,Autumn/Winter,,Petite,Everyday,78.59,31.46
+P8053,Athleisure Black Pullover,Knitwear,Sweaters,Unisex,Adult,Rainbow Kids,Pullover,Black,Acrylic,Athleisure,Solid,Autumn/Winter,Sleeveless,Plus Size,Sportswear,78.13,38.82
+P8037,Streetwear Maroon Bootcut Jeans,Bottoms,Jeans,Unisex,Adult,Bonprix Basics,Bootcut Jeans,Maroon,Denim,Streetwear,Solid,Spring/Summer,,Regular,Wedding,81.65,42.24
+P8031,Classic Black Tank Top,Tops,T-Shirts,Unisex,Adult,Maite Kelly,Tank Top,Black,Cotton Blend,Classic,Solid,All Season,Short Sleeve,Petite,Vacation,61.2,29.94
+P8096,Athleisure White Sneakers,Footwear,Sneakers,Unisex,Adult,Rainbow Kids,Sneakers,White,Mesh,Athleisure,Solid,Spring/Summer,,Plus Size,,100.17,42.89
+P8109,Streetwear Olive Kids Shirt,Kids Wear,Kids Tops,Unisex,Kids,Bodyflirt,Kids Shirt,Olive,Cotton,Streetwear,Solid,Autumn/Winter,Long Sleeve,Relaxed,Party,77.75,34.61
+P8001,Formal Beige Maxi Dress,Dresses,Maxi Dress,Female,Adult,Linea Tesini,Maxi Dress,Beige,Cotton,Formal,Solid,Spring/Summer,Sleeveless,Plus Size,Everyday,9.92,5.08
+P8008,Vintage Red Maxi Dress,Dresses,Maxi Dress,Female,Adult,Bpc Selection,Maxi Dress,Red,Polyester,Vintage,Printed,All Season,3/4 Sleeve,Relaxed,Sportswear,25.51,13.92
+P8142,Vintage Navy Sports Shorts,Activewear,Sportswear,Unisex,Adult,Linea Tesini,Sports Shorts,Navy,Polyester,Vintage,Printed,All Season,,Regular,Party,25.52,13.78
+P8063,Formal Teal T-Shirt Bra,Lingerie,Bras,Female,Adult,Bodyflirt,T-Shirt Bra,Teal,Cotton,Formal,Lace,All Season,,Petite,Party,107.38,44.0
+P8077,Classic Mustard Linen Shirt,Menswear,Shirts,Male,Adult,Bodyflirt,Linen Shirt,Mustard,Cotton,Classic,Solid,All Season,Sleeveless,Regular,,50.32,20.39
+P8113,Formal Grey Kids Shirt,Kids Wear,Kids Tops,Unisex,Kids,Linea Tesini,Kids Shirt,Grey,Cotton,Formal,Printed,All Season,Short Sleeve,Petite,Wedding,41.49,14.8
+P8051,Formal Olive Bomber Jacket,Outerwear,Jackets,Unisex,Adult,Bodyflirt,Bomber Jacket,Olive,Denim,Formal,Solid,All Season,Long Sleeve,Relaxed,Sportswear,65.4,23.86
+P8135,Athleisure Grey Loungewear Set,Home Textiles,Loungewear,Unisex,Adult,Maite Kelly,Loungewear Set,Grey,Fleece,Athleisure,Solid,Autumn/Winter,,Slim,Everyday,7.0,3.77
+P8108,Casual Beige Kids T-Shirt,Kids Wear,Kids Tops,Unisex,Kids,Bodyflirt,Kids T-Shirt,Beige,Cotton,Casual,Printed,Autumn/Winter,3/4 Sleeve,Slim,Party,68.11,33.84
+P8085,Classic Blush Pink Waistcoat,Menswear,Suits,Male,Adult,Sheego,Waistcoat,Blush Pink,Polyester,Classic,Solid,Spring/Summer,3/4 Sleeve,Petite,Work,33.62,11.95
+P8059,Streetwear Black Cardigan,Knitwear,Sweaters,Unisex,Adult,Rainbow Kids,Cardigan,Black,Wool,Streetwear,Cable Knit,Autumn/Winter,3/4 Sleeve,Plus Size,Wedding,73.24,30.05
+P8041,Classic Maroon Chinos,Bottoms,Trousers,Unisex,Adult,Maite Kelly,Chinos,Maroon,Cotton,Classic,Solid,Spring/Summer,,Maternity,Everyday,105.13,34.93
+P8112,Streetwear Black Kids Shirt,Kids Wear,Kids Tops,Unisex,Kids,Bpc Selection,Kids Shirt,Black,Cotton,Streetwear,Printed,All Season,Long Sleeve,Regular,Work,26.18,13.42
+P8083,Bohemian Navy Casual Shirt,Menswear,Shirts,Male,Adult,Sheego,Casual Shirt,Navy,Linen,Bohemian,Checked,Spring/Summer,3/4 Sleeve,Plus Size,Wedding,56.16,24.03
+P8095,Vintage Olive Sports Shoes,Footwear,Sneakers,Unisex,Adult,Sheego,Sports Shoes,Olive,Leather,Vintage,Solid,Spring/Summer,,Relaxed,Wedding,115.95,48.89
+P8151,Athleisure Olive Bikini,Swimwear,Swimsuits,Female,Adult,Maite Kelly,Bikini,Olive,Nylon,Athleisure,Solid,All Season,,Petite,Wedding,77.21,27.24
+P8027,Streetwear Teal Tank Top,Tops,T-Shirts,Unisex,Adult,Maite Kelly,Tank Top,Teal,Cotton,Streetwear,Printed,All Season,Sleeveless,Petite,Vacation,101.62,35.5
+P8132,Casual Navy Loungewear Set,Home Textiles,Loungewear,Unisex,Adult,Sheego,Loungewear Set,Navy,Fleece,Casual,Solid,Autumn/Winter,,Relaxed,Vacation,54.22,26.17
+P8039,Classic Denim Blue Straight Jeans,Bottoms,Jeans,Unisex,Adult,Bonprix Basics,Straight Jeans,Denim Blue,Denim,Classic,Solid,Autumn/Winter,,Petite,Sportswear,71.59,37.92
+P8130,Casual Teal Kids Party Dress,Kids Wear,Kids Dresses,Female,Kids,Bonprix Basics,Kids Party Dress,Teal,Cotton,Casual,Printed,Spring/Summer,Short Sleeve,Plus Size,Vacation,39.78,13.78
+P8082,Vintage Grey Formal Shirt,Menswear,Shirts,Male,Adult,Bonprix Basics,Formal Shirt,Grey,Cotton,Vintage,Solid,Spring/Summer,Sleeveless,Relaxed,Sportswear,38.78,14.59
+P8013,Casual Mustard Party Dress,Dresses,Party Dress,Female,Adult,Bodyflirt,Party Dress,Mustard,Satin,Casual,Solid,Autumn/Winter,Long Sleeve,Regular,Party,103.39,42.3
+P8079,Bohemian Black Linen Shirt,Menswear,Shirts,Male,Adult,Rainbow Kids,Linen Shirt,Black,Linen,Bohemian,Solid,All Season,Sleeveless,Regular,Sportswear,112.51,40.76
+P8084,Classic Navy Waistcoat,Menswear,Suits,Male,Adult,Bodyflirt,Waistcoat,Navy,Polyester,Classic,Solid,All Season,Long Sleeve,Relaxed,Wedding,85.21,30.28
+P8029,Formal Beige Polo Shirt,Tops,T-Shirts,Unisex,Adult,Maite Kelly,Polo Shirt,Beige,Cotton Blend,Formal,Printed,All Season,3/4 Sleeve,Relaxed,Everyday,104.37,31.48
+P8058,Casual Red Pullover,Knitwear,Sweaters,Unisex,Adult,Bonprix Basics,Pullover,Red,Acrylic,Casual,Cable Knit,Spring/Summer,3/4 Sleeve,Regular,Party,101.44,31.62
+P8052,Formal Beige Denim Jacket,Outerwear,Jackets,Unisex,Adult,Bodyflirt,Denim Jacket,Beige,Denim,Formal,Solid,Spring/Summer,Long Sleeve,Relaxed,,97.87,36.45
+P8114,Classic Mustard Kids Shirt,Kids Wear,Kids Tops,Unisex,Kids,Bpc Selection,Kids Shirt,Mustard,Cotton,Classic,Striped,All Season,Long Sleeve,Regular,Wedding,104.19,34.7
+P8100,Bohemian Beige Flats,Footwear,Sandals,Female,Adult,Bonprix Basics,Flats,Beige,Leather,Bohemian,Solid,Spring/Summer,,Regular,Party,23.87,11.69
+P8138,Athleisure Maroon Sweatpants,Home Textiles,Loungewear,Unisex,Adult,Maite Kelly,Sweatpants,Maroon,Cotton,Athleisure,Solid,All Season,,Petite,Vacation,106.9,32.81
+P8075,Vintage Beige Linen Shirt,Menswear,Shirts,Male,Adult,Bodyflirt,Linen Shirt,Beige,Cotton Blend,Vintage,Solid,Autumn/Winter,Sleeveless,Petite,Sportswear,105.13,50.39
+P8070,Classic Navy Nightgown,Lingerie,Nightwear,Female,Adult,Bonprix Basics,Nightgown,Navy,Satin,Classic,Solid,All Season,3/4 Sleeve,Regular,Everyday,98.41,37.77
+P8101,Bohemian Blush Pink Flats,Footwear,Sandals,Female,Adult,Bpc Selection,Flats,Blush Pink,Leather,Bohemian,Solid,Spring/Summer,,Slim,Wedding,80.11,37.74
+P8119,Casual Beige Kids Jeans,Kids Wear,Kids Bottoms,Unisex,Kids,Bonprix Basics,Kids Jeans,Beige,Cotton,Casual,Solid,Spring/Summer,,Petite,Vacation,94.59,36.55
+P8131,Athleisure White Sweatpants,Home Textiles,Loungewear,Unisex,Adult,Rainbow Kids,Sweatpants,White,Fleece,Athleisure,Solid,Autumn/Winter,,Slim,Work,21.54,11.41
+P8028,Athleisure Grey T-Shirt,Tops,T-Shirts,Unisex,Adult,Bodyflirt,T-Shirt,Grey,Cotton,Athleisure,Striped,Spring/Summer,3/4 Sleeve,Slim,Vacation,100.28,41.95
+P8038,Classic Red Skinny Jeans,Bottoms,Jeans,Unisex,Adult,Maite Kelly,Skinny Jeans,Red,Denim,Classic,Washed,Spring/Summer,,Relaxed,Work,54.08,20.53
+P8068,Athleisure Mustard T-Shirt Bra,Lingerie,Bras,Female,Adult,Bpc Selection,T-Shirt Bra,Mustard,Cotton,Athleisure,Solid,Spring/Summer,,Slim,Sportswear,102.14,43.96
+P8118,Vintage Teal Kids Shorts,Kids Wear,Kids Bottoms,Unisex,Kids,Maite Kelly,Kids Shorts,Teal,Denim,Vintage,Solid,Spring/Summer,,Plus Size,Work,18.75,9.2
+P8147,Classic Blush Pink Swim Cover-Up,Swimwear,Swimsuits,Female,Adult,Rainbow Kids,Swim Cover-Up,Blush Pink,Nylon,Classic,Printed,Spring/Summer,,Slim,Party,96.19,40.59
+P8123,Formal Mustard Kids Shorts,Kids Wear,Kids Bottoms,Unisex,Kids,Maite Kelly,Kids Shorts,Mustard,Cotton,Formal,Solid,Spring/Summer,,Petite,Party,21.57,10.28
+P8098,Streetwear Olive Sneakers,Footwear,Sneakers,Unisex,Adult,Maite Kelly,Sneakers,Olive,Leather,Streetwear,Solid,All Season,,Relaxed,Work,52.9,26.29
+P8139,Bohemian Maroon Leggings,Activewear,Sportswear,Unisex,Adult,Bonprix Basics,Leggings,Maroon,Spandex Blend,Bohemian,Printed,Autumn/Winter,,Slim,Party,66.42,29.3
+P8143,Vintage Denim Blue Track Jacket,Activewear,Sportswear,Unisex,Adult,Bpc Selection,Track Jacket,Denim Blue,Polyester,Vintage,Solid,Spring/Summer,,Petite,Wedding,48.45,14.72
+P8045,Athleisure White Chinos,Bottoms,Trousers,Unisex,Adult,Bodyflirt,Chinos,White,Cotton,Athleisure,Solid,All Season,,Plus Size,,97.41,40.84
+P8050,Vintage Black Bomber Jacket,Outerwear,Jackets,Unisex,Adult,Bodyflirt,Bomber Jacket,Black,Wool Blend,Vintage,Solid,All Season,3/4 Sleeve,Relaxed,Work,29.55,10.75
+P8014,Vintage Denim Blue Bodycon Dress,Dresses,Party Dress,Female,Adult,Linea Tesini,Bodycon Dress,Denim Blue,Velvet,Vintage,Solid,All Season,3/4 Sleeve,Slim,Vacation,33.62,17.25
+P8065,Streetwear Grey T-Shirt Bra,Lingerie,Bras,Female,Adult,Bpc Selection,T-Shirt Bra,Grey,Cotton,Streetwear,Solid,All Season,,Plus Size,Everyday,60.43,22.45
+P8025,Classic Denim Blue Blouse,Tops,Blouses,Female,Adult,Bpc Selection,Blouse,Denim Blue,Polyester,Classic,Solid,All Season,Sleeveless,Maternity,Vacation,100.77,46.18
+P8122,Formal Black Kids Jeans,Kids Wear,Kids Bottoms,Unisex,Kids,Bonprix Basics,Kids Jeans,Black,Denim,Formal,Solid,All Season,,Slim,Wedding,32.9,12.01
+P8003,Classic Olive Shirt Dress,Dresses,Maxi Dress,Female,Adult,Bonprix Basics,Shirt Dress,Olive,Polyester,Classic,Printed,All Season,3/4 Sleeve,Petite,Sportswear,60.27,22.42
+P8004,Streetwear Olive Maxi Dress,Dresses,Maxi Dress,Female,Adult,Bpc Selection,Maxi Dress,Olive,Polyester,Streetwear,Solid,All Season,Long Sleeve,Petite,Work,70.54,33.76
+P8076,Casual Red Linen Shirt,Menswear,Shirts,Male,Adult,Bpc Selection,Linen Shirt,Red,Cotton,Casual,Solid,Autumn/Winter,Short Sleeve,Relaxed,Everyday,106.83,46.51
+P8049,Classic White Bomber Jacket,Outerwear,Jackets,Unisex,Adult,Bpc Selection,Bomber Jacket,White,Polyester,Classic,Solid,Autumn/Winter,3/4 Sleeve,Slim,Wedding,66.94,29.12
+P8080,Vintage Navy Formal Shirt,Menswear,Shirts,Male,Adult,Linea Tesini,Formal Shirt,Navy,Linen,Vintage,Solid,All Season,3/4 Sleeve,Petite,Vacation,82.28,29.32
+P8091,Classic Black Sports Shoes,Footwear,Sneakers,Unisex,Adult,Bpc Selection,Sports Shoes,Black,Leather,Classic,Solid,Autumn/Winter,,Petite,Sportswear,56.62,19.59
+P8093,Athleisure Black Sneakers,Footwear,Sneakers,Unisex,Adult,Bodyflirt,Sneakers,Black,Synthetic,Athleisure,Solid,Autumn/Winter,,Relaxed,,110.92,54.72
+P8055,Athleisure Denim Blue Sweater Vest,Knitwear,Sweaters,Unisex,Adult,Bonprix Basics,Sweater Vest,Denim Blue,Wool,Athleisure,Solid,Autumn/Winter,Sleeveless,Relaxed,Wedding,28.91,9.98
+P8124,Formal Grey Kids Party Dress,Kids Wear,Kids Dresses,Female,Kids,Sheego,Kids Party Dress,Grey,Polyester,Formal,Printed,All Season,Short Sleeve,Relaxed,Party,40.13,20.91
+P8111,Streetwear White Kids T-Shirt,Kids Wear,Kids Tops,Unisex,Kids,Bonprix Basics,Kids T-Shirt,White,Cotton,Streetwear,Striped,Spring/Summer,3/4 Sleeve,Relaxed,Party,67.86,24.95
+P8036,Bohemian Black Bootcut Jeans,Bottoms,Jeans,Unisex,Adult,Bonprix Basics,Bootcut Jeans,Black,Denim,Bohemian,Solid,All Season,,Slim,Work,82.8,39.1
+P8105,Streetwear Red Heels,Footwear,Sandals,Female,Adult,Rainbow Kids,Heels,Red,Leather,Streetwear,Solid,Spring/Summer,,Petite,Party,96.37,34.77
+P8054,Casual Black Sweater Vest,Knitwear,Sweaters,Unisex,Adult,Bodyflirt,Sweater Vest,Black,Wool,Casual,Solid,All Season,Long Sleeve,Regular,Everyday,61.44,27.14
+P8115,Streetwear Mustard Kids Shirt,Kids Wear,Kids Tops,Unisex,Kids,Rainbow Kids,Kids Shirt,Mustard,Cotton,Streetwear,Striped,All Season,3/4 Sleeve,Regular,Party,58.73,32.3
+P8120,Athleisure Teal Kids Shorts,Kids Wear,Kids Bottoms,Unisex,Kids,Rainbow Kids,Kids Shorts,Teal,Cotton,Athleisure,Solid,Autumn/Winter,,Relaxed,Vacation,113.89,46.24
+P8097,Bohemian Maroon Sports Shoes,Footwear,Sneakers,Unisex,Adult,Bonprix Basics,Sports Shoes,Maroon,Synthetic,Bohemian,Solid,All Season,,Relaxed,Sportswear,29.69,15.54
+P8042,Casual Teal Joggers,Bottoms,Trousers,Unisex,Adult,Bonprix Basics,Joggers,Teal,Cotton,Casual,Solid,All Season,,Plus Size,Vacation,87.34,44.88
+P8149,Formal Black Swimsuit,Swimwear,Swimsuits,Female,Adult,Bonprix Basics,Swimsuit,Black,Spandex Blend,Formal,Printed,All Season,,Slim,Sportswear,61.17,18.83
+P8110,Streetwear Blush Pink Kids T-Shirt,Kids Wear,Kids Tops,Unisex,Kids,Sheego,Kids T-Shirt,Blush Pink,Cotton,Streetwear,Solid,All Season,Long Sleeve,Slim,Everyday,108.56,48.51
+P8040,Vintage Maroon Bootcut Jeans,Bottoms,Jeans,Unisex,Adult,Bpc Selection,Bootcut Jeans,Maroon,Denim,Vintage,Washed,All Season,,Regular,Everyday,17.63,8.13
+P8033,Classic Red Polo Shirt,Tops,T-Shirts,Unisex,Adult,Linea Tesini,Polo Shirt,Red,Cotton,Classic,Striped,Autumn/Winter,Long Sleeve,Relaxed,Wedding,46.49,19.69
+P8140,Formal Grey Leggings,Activewear,Sportswear,Unisex,Adult,Bodyflirt,Leggings,Grey,Polyester,Formal,Printed,All Season,,Slim,Sportswear,16.83,7.28
+P8107,Vintage Grey Kids Shirt,Kids Wear,Kids Tops,Unisex,Kids,Rainbow Kids,Kids Shirt,Grey,Cotton,Vintage,Printed,Autumn/Winter,Sleeveless,Regular,Wedding,38.33,13.77
+P8092,Casual Denim Blue Sports Shoes,Footwear,Sneakers,Unisex,Adult,Rainbow Kids,Sports Shoes,Denim Blue,Synthetic,Casual,Solid,Autumn/Winter,,Slim,Everyday,116.46,52.64
+P8072,Bohemian Olive Nightgown,Lingerie,Nightwear,Female,Adult,Linea Tesini,Nightgown,Olive,Satin,Bohemian,Solid,Spring/Summer,Long Sleeve,Petite,Sportswear,46.67,16.86
+P8056,Classic Blush Pink Sweater Vest,Knitwear,Sweaters,Unisex,Adult,Rainbow Kids,Sweater Vest,Blush Pink,Acrylic,Classic,Solid,All Season,Sleeveless,Plus Size,Sportswear,78.94,41.88
+P8087,Vintage Navy Waistcoat,Menswear,Suits,Male,Adult,Sheego,Waistcoat,Navy,Polyester,Vintage,Solid,All Season,Sleeveless,Slim,Vacation,50.22,20.59
+P8043,Vintage Teal Joggers,Bottoms,Trousers,Unisex,Adult,Maite Kelly,Joggers,Teal,Polyester Blend,Vintage,Solid,Spring/Summer,,Maternity,Everyday,87.76,26.58
+P8017,Classic Black Bodycon Dress,Dresses,Party Dress,Female,Adult,Sheego,Bodycon Dress,Black,Satin,Classic,Sequin,Spring/Summer,Short Sleeve,Plus Size,Work,10.35,4.51
+P8009,Casual Denim Blue Shirt Dress,Dresses,Maxi Dress,Female,Adult,Bpc Selection,Shirt Dress,Denim Blue,Viscose,Casual,Floral,All Season,Long Sleeve,Petite,Everyday,43.24,14.65
+P8086,Athleisure White Suit Jacket,Menswear,Suits,Male,Adult,Linea Tesini,Suit Jacket,White,Wool Blend,Athleisure,Solid,Autumn/Winter,Sleeveless,Regular,Party,36.77,19.11
+P8030,Athleisure Red Tank Top,Tops,T-Shirts,Unisex,Adult,Maite Kelly,Tank Top,Red,Cotton Blend,Athleisure,Striped,Autumn/Winter,Long Sleeve,Regular,Work,119.99,56.27
+P8117,Bohemian Teal Kids Shorts,Kids Wear,Kids Bottoms,Unisex,Kids,Linea Tesini,Kids Shorts,Teal,Cotton,Bohemian,Solid,All Season,,Slim,Sportswear,78.77,27.17
+P8094,Athleisure Mustard Sports Shoes,Footwear,Sneakers,Unisex,Adult,Bonprix Basics,Sports Shoes,Mustard,Mesh,Athleisure,Solid,All Season,,Maternity,Work,83.09,34.34
+P8047,Bohemian Denim Blue Denim Jacket,Outerwear,Jackets,Unisex,Adult,Linea Tesini,Denim Jacket,Denim Blue,Polyester,Bohemian,Solid,Spring/Summer,Short Sleeve,Petite,Wedding,48.94,23.06
+P8032,Classic Olive T-Shirt,Tops,T-Shirts,Unisex,Adult,Rainbow Kids,T-Shirt,Olive,Cotton,Classic,Printed,Autumn/Winter,Short Sleeve,Petite,Wedding,44.91,22.21
+P8134,Casual Beige Loungewear Set,Home Textiles,Loungewear,Unisex,Adult,Rainbow Kids,Loungewear Set,Beige,Fleece,Casual,Solid,All Season,,Regular,Vacation,103.51,51.42
