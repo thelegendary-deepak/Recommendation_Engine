@@ -23,6 +23,11 @@ JSON_PATH_CB = PROJECT_ROOT / "web-scraping" / "Scraped_data" / "product_metadat
 MODEL_PATH_OTTO = BASE_DIR / "models" / "otto_recommender_model.joblib"
 JSON_PATH_OTTO = PROJECT_ROOT / "web-scraping" / "Scraped_data" / "otto_departments.json"
 
+#Bonprix Paths
+MODEL_PATH_BONPRIX = BASE_DIR / "models" / "bonprix_recommender_model.joblib"
+JSON_PATH_BONPRIX = PROJECT_ROOT / "web-scraping" / "Scraped_data" / "bonprix_departments.json"
+
+
 # --- 2. Load Models & Data at Startup ---
 try:
     # Load Crate & Barrel (CB)
@@ -44,6 +49,16 @@ try:
 
     with open(JSON_PATH_OTTO, "r", encoding="utf-8") as f:
         otto_json_df = pd.DataFrame(list(json.load(f).values()))
+
+    # Load Bonprix
+    bonprix_artifacts = joblib.load(MODEL_PATH_BONPRIX)
+    bonprix_transformer = bonprix_artifacts["content_transformer"]
+    bonprix_interactions = bonprix_artifacts["interactions"]
+    bonprix_matrix = bonprix_artifacts["content_matrix"]
+    bonprix_id_to_idx = bonprix_artifacts["product_id_to_idx"]
+
+    with open(JSON_PATH_BONPRIX, "r", encoding="utf-8") as f:
+        bonprix_json_df = pd.DataFrame(list(json.load(f).values()))
 
 except Exception as e:
     raise RuntimeError(f"Startup loading failed: {e}")
@@ -84,6 +99,18 @@ aligned_otto["Gender_Target"] = (
     if "Gender_Target" in otto_json_df.columns
     else "Unknown"
 )
+# Setup Bonprix Matrix
+aligned_bonprix = pd.DataFrame()
+aligned_bonprix["Product_ID"] = bonprix_json_df["id"]
+aligned_bonprix["Product_Name"] = bonprix_json_df["product_name"]
+aligned_bonprix["Department"] = bonprix_json_df["Department"]
+aligned_bonprix["Product_Price"] = bonprix_json_df["price"].apply(clean_price_robust)
+aligned_bonprix["Gender_Target"] = (
+    bonprix_json_df["Gender_Target"].fillna("Unknown")
+    if "Gender_Target" in bonprix_json_df.columns
+    else "Unknown"
+)
+
 
 # Shared missing columns for alignment
 all_missing_cols = [
@@ -101,6 +128,7 @@ all_missing_cols = [
     "Fit_Type",
     "Age_Group",
     "Department",
+    "Brand_Name"
 ]
 
 for col in all_missing_cols:
@@ -108,6 +136,8 @@ for col in all_missing_cols:
         aligned_cb[col] = "Unknown"
     if col not in aligned_otto.columns:
         aligned_otto[col] = "Unknown"
+    if col not in aligned_bonprix.columns:
+        aligned_bonprix[col] = "Unknown"
 
 # Pre-transform both matrices
 cb_json_matrix = cb_transformer.transform(aligned_cb)
@@ -124,6 +154,12 @@ otto_json_matrix = (
     else otto_json_matrix
 )
 
+bonprix_json_matrix = bonprix_transformer.transform(aligned_bonprix)
+bonprix_json_matrix = (
+    np.asarray(bonprix_json_matrix.todense())
+    if hasattr(bonprix_json_matrix, "todense")
+    else bonprix_json_matrix
+)
 
 # --- 4. Pydantic Schemas ---
 class RecommendationItem(BaseModel):
@@ -146,7 +182,7 @@ class RecommendationResponse(BaseModel):
 )
 def get_recommendations(
     id: str,
-    brand: str = Query("crate and barrel", description="Select brand: 'crate and barrel' or 'otto'"),
+    brand: str = Query("otto", description="Select brand: 'crate and barrel' or 'otto' or 'bonprix'"),
     top_n: int = 3,
 ):
     """Get personalized recommendations from scraped data. Choose brand using the 'brand' parameter."""
@@ -167,10 +203,18 @@ def get_recommendations(
         target_matrix = otto_json_matrix
         df_display = otto_json_df
         category_col = "Department"
+        
+    elif brand == "bonprix":
+        interactions = bonprix_interactions
+        id_to_idx = bonprix_id_to_idx
+        model_matrix = bonprix_matrix
+        target_matrix = bonprix_json_matrix
+        df_display = bonprix_json_df
+        category_col = "Product_Category"
     else:
         raise HTTPException(
             status_code=400,
-            detail="Invalid brand choice. Use 'crate and barrel' or 'otto'.",
+            detail="Invalid brand choice. Use 'crate and barrel' or 'otto' or 'bonprix'.",
         )
 
     # Format ID type

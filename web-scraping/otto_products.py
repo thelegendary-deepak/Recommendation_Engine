@@ -182,7 +182,7 @@ for target in DEPARTMENTS:
 # Save output
 output_dir = pathlib.Path(__file__).resolve().parent / "Scraped_data"
 output_dir.mkdir(parents=True, exist_ok=True)
-output_file = output_dir / "otto_departments.json"
+output_file = output_dir / "otto_departments_v2.json"
 
 with open(output_file, "w", encoding="utf-8") as f:
     json.dump(scraped_data, f, ensure_ascii=False, indent=4)
