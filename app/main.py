@@ -1,13 +1,16 @@
 import json
 import re
 from pathlib import Path
-from typing import List
+from typing import List, Literal
 import joblib
 import numpy as np
 import pandas as pd
 from fastapi import FastAPI, HTTPException, Query
 from pydantic import BaseModel
 from sklearn.metrics.pairwise import cosine_similarity
+
+from app.events.publisher import publish_safely
+from app.events.schemas import RecommendationGenerated, RecommendationType
 
 app = FastAPI(title="Multi-Brand Recommendation Engine Service")
 
@@ -165,7 +168,8 @@ bonprix_json_matrix = (
 class RecommendationItem(BaseModel):
     productId: str
     name: str
-    type: str = "PRODUCT"
+    url: str
+    type: Literal["PRODUCT"]
     score: float
     reason: str
 
@@ -174,6 +178,30 @@ class RecommendationResponse(BaseModel):
     brand: str
     customerId: str
     recommendations: List[RecommendationItem]
+
+
+def classify_recommendation(
+    candidate: pd.Series,
+    owned_products: pd.DataFrame,
+    category_col: str,
+) -> str:
+    """Classify an unseen candidate using the customer's known catalog items."""
+    candidate_category = str(candidate.get(category_col, "Unknown"))
+    if not candidate_category or candidate_category == "Unknown":
+        return "CROSS_SELL"
+
+    comparable = owned_products[
+        owned_products[category_col].fillna("Unknown").astype(str)
+        == candidate_category
+    ]
+    if comparable.empty:
+        return "CROSS_SELL"
+
+    candidate_price = clean_price_robust(candidate.get("price"))
+    highest_owned_price = comparable["price"].apply(clean_price_robust).max()
+    if candidate_price > highest_owned_price:
+        return "UPSELL"
+    return "CROSS_SELL"
 
 
 # --- 5. Multi-Brand GET Endpoint ---
@@ -196,6 +224,7 @@ def get_recommendations(
         target_matrix = cb_json_matrix
         df_display = cb_json_df
         category_col = "category"
+
     elif brand == "otto":
         interactions = otto_interactions
         id_to_idx = otto_id_to_idx
@@ -210,7 +239,7 @@ def get_recommendations(
         model_matrix = bonprix_matrix
         target_matrix = bonprix_json_matrix
         df_display = bonprix_json_df
-        category_col = "Product_Category"
+        category_col = "Department"
     else:
         raise HTTPException(
             status_code=400,
@@ -258,21 +287,28 @@ def get_recommendations(
                 RecommendationItem(
                     productId=str(df_display.iloc[idx]["id"]),
                     name=str(df_display.iloc[idx]["product_name"]),
+                    url=str(df_display.iloc[idx].get("product_url", "")),
                     type="PRODUCT",
                     score=round(float(similarities[idx]), 2),
                     reason="Based on recent purchases",
                 )
             )
 
-        print(
-            f"[EVENT] RecommendationGenerated published for {brand.upper()} Customer: {search_id}"
-        )
-
-        return RecommendationResponse(
+        response = RecommendationResponse(
             brand=brand,
             customerId=str(id),
             recommendations=recommendations_list,
         )
+        for recommendation in response.recommendations:
+            publish_safely(
+                RecommendationGenerated(
+                    customerId=response.customerId,
+                    recommendationId=recommendation.productId,
+                    recommendationType=RecommendationType.PRODUCT,
+                    model="CosineSimilarity",
+                )
+            )
+        return response
 
     except Exception as e:
         raise HTTPException(

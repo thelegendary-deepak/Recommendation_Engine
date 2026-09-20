@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables
+.env
+
+# Event logs (local-only, not committed)
+app/events/events.jsonl
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Distribution / build
+build/
+dist/
